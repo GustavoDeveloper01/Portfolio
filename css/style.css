@@ -576,6 +576,68 @@ footer h1{
 }
 
 
+@media screen and (min-width: 720px) { 
+    
+    #texto p{
+       margin-left: 150px;
+       margin-top: 40px;
+    }
+    #texto-nome p{
+        margin-left: 8%;
+    }
+    #texto-desenvolvedor{
+      margin-left: 270px;
+    }
+    #btn-0{
+        margin-top: 25px;
+        margin-left: 90px;
+    }
+    #btn-01{
+        margin-top: 25px;
+    }
+    #icons img{
+       width: 40px;
+    }
+    .perfil-foto img{
+        width: 150px;
+        height: 150px;
+        margin-top: 30px;
+        margin-left: 285px;
+    }
+    #projetos01 {
+        display: flex;
+        flex-direction: row;
+    }
+    #projetos01 img{
+        width: 100px;
+        height: 100px;
+    }
+    #gmail img{
+        width: 30px;
+    }
+    #gmail p{
+        font-size: 10px;
+        margin-top: 25px;
+        font-weight: bold;
+    }
+    #linkedin img{
+        width: 40px;
+    }
+    #linkedin p a{
+        font-size: 15px;
+    }
+    #github img{
+        width: 40px; 
+    }
+    #github p a{
+       font-size: 15px;
+    }
+    #btn-top {
+        top: 570px;
+    }
+
+}
+
 @media screen and (min-width: 768px) { 
     
     #texto p{
