@@ -849,7 +849,7 @@ footer h1{
     #icons img{
        width: 100px;
     }
-    #perfil-foto img{
+    .perfil-foto img{
         width: 150px;
         height: 150px;
         margin-top: 30px;
@@ -888,36 +888,35 @@ footer h1{
 
 }
 
-
-@media only screen and (max-width: 1920px) and (min-width: 1440px){ 
-    
+@media screen and (min-width: 1920px) { 
     #texto p{
-       margin-left: 115px;
-       margin-top: 100px;
+       margin-left: 500px;
+       margin-top: 80px;
       
     }
     #texto-nome p{
-        margin-left: 1%;
+        margin-left: 400px;
     }
     #texto-desenvolvedor{
-       margin-left: 120px;
+       margin-left: 60px;
+       margin-left: 620px;
     }
     #btn-0{
         margin-top: 25px;
-        margin-left: 20px;
+        margin-left: 450px;
     }
     #btn-01{
         margin-top: 25px;
         margin-left: 50px;
     }
     #icons img{
-       width: 60px;
+       width: 100px;
     }
-    #perfil-foto img{
+    .perfil-foto img{
         width: 400px;
         height: 400px;
-        margin-top: -200px;
-        margin-left: 900px;
+        margin-top: -250px;
+        margin-left: 1200px;
     }
     #projetos01 {
         display: flex;
@@ -947,9 +946,71 @@ footer h1{
        font-size: 15px;
     }
     #btn-top {
-        top: 630px;
+        top: 900px;
     }
 
 }
 
 
+@media screen and (min-width: 2560px) { 
+    #texto p{
+       margin-left: 500px;
+       margin-top: 80px;
+      
+    }
+    #texto-nome p{
+        margin-left: 400px;
+    }
+    #texto-desenvolvedor{
+       margin-left: 60px;
+       margin-left: 620px;
+    }
+    #btn-0{
+        margin-top: 25px;
+        margin-left: 450px;
+    }
+    #btn-01{
+        margin-top: 25px;
+        margin-left: 50px;
+    }
+    #icons img{
+       width: 100px;
+    }
+    .perfil-foto img{
+        width: 400px;
+        height: 400px;
+        margin-top: -250px;
+        margin-left: 1200px;
+    }
+    #projetos01 {
+        display: flex;
+    }
+    #projetos01 img{
+        width: 250px;
+        height: 250px;
+    }
+    #gmail img{
+        width: 30px;
+    }
+    #gmail p{
+        font-size: 10px;
+        margin-top: 25px;
+        font-weight: bold;
+    }
+    #linkedin img{
+        width: 40px;
+    }
+    #linkedin p a{
+        font-size: 15px;
+    }
+    #github img{
+        width: 40px; 
+    }
+    #github p a{
+       font-size: 15px;
+    }
+    #btn-top {
+        top: 900px;
+    }
+
+}
