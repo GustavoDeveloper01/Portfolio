@@ -405,11 +405,11 @@ footer h1{
     }
     #btn-0{
         margin-top: 25px;
-        margin-left: 25px;
+        margin-left: 30px;
     }
     #btn-01{
         margin-top: 25px;
-        margin-left: 25px;
+        margin-left: 30px;
     }
     #icons img{
        width: 40px;
@@ -417,7 +417,7 @@ footer h1{
     .perfil-foto img{
         width: 150px;
         height: 150px;
-        margin-left: 120px;       
+        margin-left: 125px;       
         margin-top: 15%; 
     }
     #projetos01 {
